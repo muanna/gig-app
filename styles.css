@@ -1,0 +1,96 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #333;
+    padding: 1rem 0;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    color: #00bfff;
+}
+
+/* Banner Section */
+.banner {
+    text-align: center;
+    background: url('banner.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 10rem 0;
+    background-color: #555;
+}
+
+.banner h1 {
+    font-size: 3rem;
+}
+
+.banner p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+/* Services Section */
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.service {
+    text-align: center;
+    width: 30%;
+}
+
+.service img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1rem;
+}
+
+.service h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.service p {
+    font-size: 1rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
